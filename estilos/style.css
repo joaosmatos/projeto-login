@@ -3,7 +3,7 @@
 /*
 paleta de cores
 verde:#49a09d
-lilas:5f2c82
+lilas:#5f2c82
 */
 
 * {
@@ -37,6 +37,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.450);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
